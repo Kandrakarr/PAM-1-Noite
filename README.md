@@ -2,13 +2,16 @@
 
 # Bryan
 
+react_exemplo
+
 npx create-expo-app nome_do_app
 
 cd nome_do_app
 
 npm start
 
-ou
+
+react_vazio
 
 npx create-expo-app nome_do_app --template blank
 
