@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.fundo}>
 
-      <ScrollView>
+      <ScrollView style={styles.scroll}>
         <View style={styles.titulo}>
           <text>Catalogo de plantas</text>
         </View>
@@ -24,15 +24,15 @@ export default function App() {
 const styles = StyleSheet.create({
   fundo: {
     flex: 1,
-    height: '100%',
     backgroundColor: '#87dd87',
-    alignItems: 'center',
-    justifyContent: 'center',
+  },
+  scroll: {
+    flex: 1,
     width: '100%',
   },
   titulo:{
     backgroundColor: '#83f1da',
-    width: 300,
+    width: '80%',
     height: 50,
     alignItems: 'center',
     justifyContent: 'center',
